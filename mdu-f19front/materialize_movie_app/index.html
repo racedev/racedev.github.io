@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie App - Materialize</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="nav-extended">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Movie App</a>
+      </div>
+      <div class="nav-content">
+        <ul id="tabs" class="tabs">
+          <li class="tab col s3"><a href="#movies">Movies</a></li>
+          <li class="tab col s3"><a href="#genre">Genre</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <section id="movies" class="col s12">
+    <div class="container">
+      <div class="input-field col s12">
+        <input id="search" type="search" placeholder="Search" onkeyup="search(this.value)">
+      </div>
+      <div class="row" id="movies-container">
+      </div>
+    </div>
+  </section>
+
+  <section id="genre" class="col s12">
+    <div class="container">
+      <div class="input-field col s12">
+        <select id="select-genre" onchange="genreSelected(this.value)">
+          <option value="" disabled selected>Select Genre</option>
+        </select>
+      </div>
+
+      <div class="row" id="movies-by-genre-container">
+
+      </div>
+    </div>
+  </section>
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

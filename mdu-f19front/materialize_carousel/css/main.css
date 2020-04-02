@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+.card {
+  margin: .5rem 2em 1rem 2em;
+}
+
+.carousel-slider {
+  height: 700px !important;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: #ee6e7382;
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: #f44336;
+}

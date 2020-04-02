@@ -1,0 +1,26 @@
+[{
+    "model": "MacBook Pro 13'",
+    "brand": "Apple",
+    "price": "11799",
+    "status": "outOfStock",
+    "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp13touch-space-select-201807?wid=1808&hei=1680&fmt=jpeg&qlt=80&.v=1529520060550",
+    "id": "MacbookPro13"
+  },
+  {
+    "model": "MacBook Pro 15'",
+    "brand": "Apple",
+    "price": "21499",
+    "status": "inStock",
+    "img": "https://www.humac.dk/sites/default/files/product-images/2018-10/MBP15RD-TB-2016-PT-Open105-Svr-ISO-WW-EN-SCREEN_0.png",
+    "id": "MacbookPro15"
+
+  },
+  {
+    "model": "Zenbook 14'",
+    "brand": "Asus",
+    "price": "8099",
+    "status": "inStock",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81J25k3tsGL._SL1500_.jpg",
+    "id": "Zenbook14"
+  }
+]

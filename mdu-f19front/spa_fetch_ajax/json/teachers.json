@@ -1,0 +1,30 @@
+[{
+    "name": "Birgitte Kirk Iversen",
+    "initials": "bki",
+    "mail": "bki@baaa.dk",
+    "phone": "72286316",
+    "address": "Sønderhøj 30, 8260 Viby J",
+    "position": "Senior Lecturer",
+    "department": "Multimedia Design",
+    "img": "https://www.baaa.dk/media/u4gorzsd/birgitte-kirk-iversen2.jpg"
+  },
+  {
+    "name": "Michael Hvidtfeldt",
+    "initials": "mhv",
+    "mail": "mhv@baaa.dk",
+    "phone": "72286328",
+    "address": "Sønderhøj 30, 8260 Viby J",
+    "position": "Senior Lecturer",
+    "department": "Multimedia Design",
+    "img": "https://www.eaaa.dk/media/unnlrf3n/michael-hvidtfeldt.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132133643127670000&format=webp"
+  },
+  {
+    "name": "Rasmus Cederdorff",
+    "initials": "race",
+    "mail": "race@baaa.dk",
+    "phone": "72286318",
+    "address": "Sønderhøj 30, 8260 Viby J",
+    "position": "Lecturer",
+    "department": "Multimediedesigner & Professionsbachelor i digital konceptudvikling",
+    "img": "http://eaaa.cederdorff.com/mdu-f18front/object_teachers_grid/img/race.jpg"
+  }]
